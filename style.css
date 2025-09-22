@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: rgb(163, 250, 146);
+    height: 100px;
+    width: 100px;
+}
+
+h1{
+    color:rgb(207, 134, 66); 
+}
+a{
+    color:rgb(207, 134, 66); 
+
+}
+h2{
+    color:black; 
+
+}
+
+footer{
+    background-color: rgb(163, 250, 146);
+    height: 100px;
+    width: 100px;
+}
