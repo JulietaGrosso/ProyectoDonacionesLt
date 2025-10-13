@@ -67,14 +67,30 @@ header .menu{
     padding: 20px;
 }
 
-.mostrarInstituciones .instituciones .institucion img{
+.mostrarInstituciones .instituciones .institucion{
 
     height: 300px;
     width: 300px;
 }
 
+img{
+    height: 300px;
+    width: 300px;
+}
 
+.pasos{
+    width:100%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
+/*.pasos .cadapaso{
+    
+}*/
 
 
 footer{
