@@ -10,63 +10,66 @@
     <title>Donaciones Lt</title>
 </head>
 <body>
-    <header>
-            <h1>Donaciones Lt</h1>   
+    <header id="arriba">
+            <h1 id="home">Donaciones Lt</h1>   
         <div class="menu">
-                <a href="inicio">Home</a>  
-                <a href="donar a una institucion">Donar a una institución</a>  
-                <a href="como donar">¿Cómo donar?</a>
+                <a href="#home">Home</a>  
+                <a href="#inst">Donar a una institución</a>  
+                <a href="#comoDonar">¿Cómo donar?</a>
         </div>
         
     </header>
         <div class="mostrarInstituciones">
-            <h2>Seleccionar una Institución:</h2>
+            <h2 id="inst">Seleccionar una Institución:</h2>
             <div class="instituciones">
-                <div class="institucion">
-                    <img= alt="images/bibliotecalogo.png">Biblioteca Popular JME>
-                    <h3>Biblioteca Popular JME N°2867</h3>
-                </div>
-                <div class="institucion">
-                    <a href="images/bomberos.jpg" alt="Logo Bomberos Voluntarios">Bomberos voluntarios Las Toscas</a>
-                     
+                <a class="institucion" href="/formulario.html">
+                    <img src="images/bibliotecalogo.png"alt="Logo Biblioteca Popular JME">
+                    <h3>Biblioteca Popular N°2867</h3>
+                </a>
+                 <a class="institucion" href="/formulario.html">
+                   <img src="images/isp63Logo.jpg"alt="Logo ISP N°63 Natalia Quessus">         
+                    <h3>ISP N°63 Natalia Quessús</h3>
+                </a>
+                <a class="institucion" href="/formulario.html">
+                   <img src="images/bomberos.jpg"alt="Logo Bomberos Solidarios LT">         
                     <h3>Bomberos Solidarios LT</h3>
-                </div>
-                <div class="institucion">
-                    <a href="images/isp63Logo.jpg" alt="Logo ISP N°63">ISP N°63 "Natalia Quessús"</a>
-                    <h3>ISP N°63 NQ</h3>
-                </div>
-                <div class="institucion" alt="Logo Organización Huellitas">
-                    <a href="images/huellitaslogo.png">logo 4</a>
-                    <h3>Huellitas</h3>
-                </div>
+                </a>
+                <a class="institucion" href="/formulario.html">
+                  <img src="images/huellitaslogo.png"alt="Logo Huellitas">       
+                  <h3>Huellitas</h3>
+               </a>
+                <a class="institucion" href="/formulario.html">
+                  <img src="images/logofundacionid.png"alt="Logo fundación Ignacio Delssin">        
+                  <h3>Fundación Ignacio Delssin</h3>
+                </a>
+                <a class="institucion" href="/formulario.html">
+                  <img src="images/logoasilo.jpg"alt="Logo Hogar de ancianos Las Toscas">        
+                  <h3>Hogar de ancianos Las Toscas</h3>
+                </a>
                 
             </div>
         </div>
         
-                
-        <div class="pasos">
-             <h2>Pasos para donar:</h2>
-            <div class="cadapaso"> 
-                <h3>Paso 1: </h3>
-                <p>Texto de prueba texto de prueba texto de pruebatexto de pruebatexto de prueba</p>
-                <h3>Paso 2: </h3>
-                <p>Texto de prueba texto de prueba texto de pruebatexto de pruebatexto de prueba</p>
-                <h3>Paso 3: </h3>
-                <p>Texto de prueba texto de prueba texto de pruebatexto de pruebatexto de prueba</p>
-                <h3>Paso 4: </h3>
-                <p>Texto de prueba texto de prueba texto de pruebatexto de pruebatexto de prueba</p>     
-            </div>
-        </div>
-       
+
+    <footer>
         
-
-            
-
-     <footer>
-            <a href="">Volver arriba</a>
-            <h2>Copyright Proyecto Practica Personalizante I</h2>
-           
-     </footer>   
+        <div class="pieDePagina" id="info">
+            <div class="infoPiePag">
+                <a href="#arriba">Volver arriba</a>
+                 <h4>Donaciones LT</h4>
+            </div>
+           <div class="descripcionProy">
+              <h4 id="comoDonar">Este Proyecto fue realizado para la catedra de Practica Personalizante I,
+                    <br>    
+                    con el objetivo de ayudar a organizaciones de Las Toscas.
+                    <br>
+                    Para realizar una donación se debe seleccionar una institución, 
+                    <br>
+                    completar el formulario e ingresar el monto que se desee.
+                    </h4>
+            </div>
+       </div>
+    </footer>   
 
 
 </body>

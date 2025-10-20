@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+  <header id="arriba">
+            <h1 id="home">Donaciones Lt</h1>   
+        <div class="menu">
+                <a href="/index.html">Home</a>  
+                <a href="/index.html">Donar a una institución</a>  
+                <a href="#comoDonar">¿Cómo donar?</a>
+        </div>
+        
+    </header>
+        <div class="mostrarFormulario">
+            <h2>Completar información:</h2>
+            <div class="formulario">
+                <form action="/procesar-datos" method="post">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <br>
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                        <br>
+                    </div>
+                     <div class="campo">
+                        <label for="nombre">Correo:</label>
+                        <input type="text" id="correo" name="correo">
+                        <br>
+                     </div>
+                    <div class="campo">
+                    <label for="nombre">Monto a donar:</label>
+                    <input type="text" id="monto" name="monto a donar">
+                    <br>
+                    </div>
+                    <button type="submit">Realizar Donación</button>
+                    </form>
+            </div>
+        </div>
+        
+
+    <footer>
+         <div class="pieDePagina" id="info">
+            <div class="infoPiePag">
+                <a href="#arriba">Volver arriba</a>
+                 <h4>Donaciones LT</h4>
+            </div>
+           <div class="descripcionProy">
+              <h4 id="comoDonar">Este Proyecto fue realizado para la catedra de Practica Personalizante I,
+                    <br>    
+                    con el objetivo de ayudar a organizaciones de Las Toscas.
+                    <br>
+                    Para realizar una donación se debe seleccionar una institución, 
+                    <br>
+                    completar el formulario e ingresar el monto que se desee.
+                    </h4>
+            </div>
+       </div>
+      
+    </footer>    
+
+
+</body>
+</html>
